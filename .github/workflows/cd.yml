@@ -11,6 +11,8 @@ on:
 jobs:
   build-and-deploy-site:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
