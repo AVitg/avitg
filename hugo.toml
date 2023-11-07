@@ -2,7 +2,7 @@ baseURL = 'https://avitg.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-theme = "anatole"
+#theme = "anatole"
 enableEmoji = true
 
 [params]
@@ -11,4 +11,11 @@ author = "some Hugo Site"
 description = "some hugo site"
 
 profilePicture = "images/profile_pic.jpg"
-contentDir = 'content'
+
+[languages]
+[languages.en]
+contentDir = "content/en/"
+languageName = "English"
+weight = 1
+
+DefaultContentLanguage = "en"
