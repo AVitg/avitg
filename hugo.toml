@@ -9,3 +9,6 @@ enableEmoji = true
 title = "My New Hugo Site'"
 author = "some Hugo Site"
 description = "some hugo site"
+
+profilePicture = "images/profile_pic.jpg"
+contentDir = 'content'
