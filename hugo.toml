@@ -1,4 +1,4 @@
-baseURL = 'https://avitg.github.io/'
+baseURL = 'https://avitg.github.io/avitg'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
